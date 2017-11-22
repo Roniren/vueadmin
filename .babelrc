@@ -1,0 +1,8 @@
+{
+    "presets": [
+        "es2015"
+    ],
+    "plugins": [
+        "transform-runtime" //解决webpack1.x中打包.vue文件不报错，在webpack2+中正常
+    ]
+}
